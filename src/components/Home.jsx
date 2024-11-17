@@ -154,7 +154,7 @@ const Home = () => {
         setHomeData({
           courses: res.data.totalCourse || 0,
           students: res.data.totalStudent || 0,
-          totalTransactions: res.data.totalFee || 0,
+          totalTransactions: res.data.totalFeeta || 0,
         });
         setStudents(res.data.students || []);
         setPaymentList(res.data.fees || []);
